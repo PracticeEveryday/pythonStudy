@@ -20,7 +20,7 @@ print(word[:5])
 trump_tweets = ['thank', 'you', 'to', 'president', 'moon', 'of', 'south', 'korea', 'for', 'the', 'beautiful', 'welcoming', 'ceremony', 'it', 'will', 'always', 'be', 'remembered']
 
 def print_korea(text):
-    # 아래 코드를 작성하세요.
+    
     for i in range(len(text)):
         if(text[i][0] == "k"):
             print(text[i])

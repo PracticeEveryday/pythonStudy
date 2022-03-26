@@ -22,6 +22,4 @@ def print_korea(tweet):
       if(text.startswith("k")):
           print(text)
   
-  
- 
 print_korea(trump_tweets)
