@@ -15,7 +15,7 @@ import json
 import os
 currentPath = os.getcwd()
 
-src = currentPath +'\\basic\\netflix.json'
+src = currentPath +'\\json\\netflix.json'
 
 def create_dict(filename):
     with open(filename) as file:

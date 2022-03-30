@@ -1,3 +1,22 @@
+import os
+currentPath = os.getcwd()
+  
+
+filename = currentPath + '\\fileControl\\data.txt'
+print(filename)
+def print_lines(filename):
+    with open(filename, "r", encoding="utf-8") as file:
+        line_number = 1    
+
+        for line in file:
+            print(line_number, line)
+            line_number += 1
+
+
+print_lines(filename)
+
+
+'''
 
 file = open('data.txt')
 
@@ -22,20 +41,4 @@ with open('data.txt') as file:
 # 파일의 모드!
 # 쓰기 (Write) 모드로 파일을 연다
 # 기본적으로 2번재 인자에 주지 않으면 읽기 모드로 연다!
-with open('data.txt', 'w') as file:
-  file.write('Hello')
-
-
-
-filename = 'data.txt'
-
-def print_lines(filename):
-    with open(filename) as file:
-        line_number = 1    
-
-        for line in file:
-            print(line_number, line)
-            line_number += 1
-
-
-print_lines(filename)
+'''

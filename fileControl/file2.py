@@ -2,7 +2,7 @@ import os
 currentPath = os.getcwd()
 print(currentPath)
 
-path = currentPath + "\\basic\\netflix.txt"
+path = currentPath + "\\fileControl\\netflix.txt"
 
 
 # with open(path) as file:
