@@ -1,5 +1,3 @@
-from unittest import result
-
 
 numbers, case = map(int,input().split())
 
