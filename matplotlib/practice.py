@@ -11,10 +11,18 @@ plt.plot(x, y)
 plt.title("First Plot")
 plt.xlabel("x")
 plt.ylabel("y")
+plt.show()
 
+# fig => 도화지 ax => x 데이터 하나
 fig, ax = plt.subplots()
 ax.plot(x, y)
 ax.set_title("First Plot")
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 
+# 해상도
+fig.set_dpi(300)
+# 그리기
+fig.savefig("first_plot.png")
+
+plt.show()
